@@ -1,0 +1,94 @@
+
+
+.starter-template {
+  padding: 20px 15px;
+  text-align: center;
+}
+body.responsive{
+  min-height: 100%;
+  min-width: 100;
+  padding-top: 55px;
+}
+#header1{
+	font-family: 'Kenia', cursive;
+    font-weight: italic;
+    font-size: 280%;
+    color: #a31592;
+    
+}
+.btn.btn-default {
+  color: #ffffff;
+    background-color: #a31592;
+    background-image: linear-gradient(to bottom, #b314b3, #b314b3);
+    border-color: #b314b3 #b314b3 #b314b3;
+    
+    width:auto;
+    height: auto;
+	position: relative;
+	left:70px;
+	bottom:10px;
+}
+#me a{
+  color: #a31592;
+}
+.btn.btn-success{
+   
+	position: relative;
+	right:60px;
+	top:35px;
+	}
+  #logo{
+  height: 20%;  
+  width: 20%;
+  display: block;
+  position: relative;
+
+  bottom: 100px;
+
+}
+#main{
+  position: relative;
+  bottom: 90px;
+  width: 100%;
+
+}
+#people search{
+  font-family:‘Metrophobi‘Metrophobic’, Arial, serif;
+}
+#people search a{
+  color: #093b0c;
+}
+#people-things {
+  font-family:‘Metrophobi‘Metrophobic’, Arial, serif;
+  color: inherit;
+  position: relative;
+  right: 60px;
+  white-space: nowrap;
+}
+#people-things a{
+  color: #a31592;
+  font-family:‘Metrophobic’, Arial, serif;
+}
+#soulmates{
+  white-space: nowrap;
+}
+#jumbo2{
+height: 80%;
+  position: relative;
+  bottom: 90px;
+}
+#soulmates a{
+  color: #2b262b;
+}
+#me a{
+  color: #a31592;}
+#myCarousel{
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+}
+#he33{
+  position: relative;
+left: 20px;
+  bottom: 60px;
+}
