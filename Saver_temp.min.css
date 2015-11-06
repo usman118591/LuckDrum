@@ -1,17 +1,17 @@
 .starter-template {
     padding: 20px 15px;
-    text-align: center
+    text-align: center;
 }
 body.responsive {
     min-height: 100%;
     min-width: 100;
-    padding-top: 55px
+    padding-top: 55px;
 }
 #header1 {
     font-family: Kenia, cursive;
     font-weight: italic;
     font-size: 280%;
-    color: #a31592
+    color: #a31592;
 }
 .btn.btn-default {
     color: #fff;
@@ -34,7 +34,7 @@ body.responsive {
     width: 20%;
     display: block;
     position: relative;
-    bottom: 100px
+    bottom: 100px;
 }
  #main  {
     position: relative;
