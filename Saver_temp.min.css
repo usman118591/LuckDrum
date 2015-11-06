@@ -1,1 +1,282 @@
-.starter-template{padding:20px 15px;text-align:center}body.responsive{min-height:100%;min-width:100;padding-top:55px}#header1{font-family:Kenia,cursive;font-weight:italic;font-size:280%;color:#a31592}.btn.btn-default{color:#fff;background-color:#a31592;background-image:linear-gradient(to bottom,#b314b3,#b314b3);border-color:#b314b3;width:auto;height:auto;position:relative;left:70px;bottom:10px}.btn.btn-success{position:relative;right:60px;top:35px}#logo{height:20%;width:20%;display:block;position:relative;bottom:100px}#main{position:relative;bottom:90px;width:auto}@media (min-width:414px) and (max-width:736px){.container-fluid{#main{position:relative;width:300%;line-width:200%;padding-left:50px}}#people-search{font-family:‘Metrophobi‘Metrophobic’,Arial,serif}#people-search a{color:#093b0c}@media (min-width:414px) and (max-width:736px){#people-search a{position:relative;right:60px;white-space:nowrap}}#people-things{font-family:‘Metrophobi‘Metrophobic’,Arial,serif;color:inherit;position:relative;right:60px;white-space:nowrap}#people-things a{color:#a31592;font-family:‘Metrophobic’,Arial,serif}@media (min-width:414px) and (max-width:736px){#people-things a{position:relative;left:130px}}#soulmates{white-space:nowrap}#jumbo2{width:200% height:80%;position:relative;bottom:90px}@media (min-width:414px) and (max-width:736px){#jumbo2{position:relative;width:250%}}#soulmates a{color:#2b262b}#me a{color:#a31592}#myCarousel{position:relative;bottom:60px;left:20px}#he33{position:relative;left:20px;bottom:60px}@media all and (max-width :661px){#soulmates a{position:relative;right:10px}#actors a{position:relative;left:30px}}@media (min-width:414px) and (max-width:736px){#main{position:relative;width:300px}}
+.starter-template {
+    padding: 20px 15px;
+    text-align: center
+}
+body.responsive {
+    min-height: 100%;
+    min-width: 100;
+    padding-top: 55px
+}
+#header1 {
+    font-family: Kenia, cursive;
+    font-weight: italic;
+    font-size: 280%;
+    color: #a31592
+}
+.btn.btn-default {
+    color: #fff;
+    background-color: #a31592;
+    background-image: linear-gradient(to bottom, #b314b3, #b314b3);
+    border-color: #b314b3;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 70px;
+    bottom: 10px
+}
+.btn.btn-success {
+    position: relative;
+    right: 60px;
+    top: 35px
+}
+#logo {
+    height: 20%;
+    width: 20%;
+    display: block;
+    position: relative;
+    bottom: 100px
+}
+ #main  {
+    position: relative;
+    bottom: 90px;
+    width: 100%;
+}
+
+    #people-search {
+        font-family: ‘Metrophobi‘Metrophobic’, Arial, serif;
+        position:relative;
+        left: 70px;
+        
+    }
+    #people-search a {
+        color: #093b0c;
+        
+    }
+    
+    #people-things {
+        font-family: ‘Metrophobi‘Metrophobic’, Arial, serif;
+        color: inherit;
+        position: relative;
+        right: 90px;
+        white-space: nowrap
+    }
+    #people-things a {
+        color: #a31592;
+        font-family: ‘Metrophobic’, Arial, serif;
+        position: relative;
+        right: 90px;
+    }
+    
+    #soulmates {
+        white-space: nowrap;
+    }
+    #jumbo2 {
+        width: 200% height: 80%;
+        position: relative;
+        bottom: 90px
+    }
+  
+    #soulmates a {
+        color: #2b262b;
+        position:relative;
+        right: 20px;
+    }
+    #me a {
+        color: #a31592;
+    }
+    #myCarousel {
+        position: relative;
+        bottom: 60px;
+        left: 30px;
+        position: relative;
+    }
+    #he33 {
+        position: relative;
+        left: 30px;
+        bottom: 60px
+        position:relative;
+    }
+    #he33 img{
+        margin: auto;
+    }
+    @media all and (max-width: 661px) {
+        #soulmates a {
+            position: relative;
+            right: 10px
+        }
+        #actors a {
+            position: relative;
+            left: 30px
+        }
+    }
+   
+/* Extra Small Devices, .visible-xs-* */
+    @media (max-width: 767px) {}
+
+    /* Small Devices, .visible-sm-* */
+    @media (min-width: 768px) and (max-width: 991px) {}
+
+    /* Medium Devices, .visible-md-* */
+    @media (min-width: 992px) and (max-width: 1199px) {}
+
+    /* Large Devices, .visible-lg-* */
+    @media (min-width: 1050px) and (max-width: 1680) {
+     .starter-template {
+    padding: 20px 15px;
+    text-align: center
+}
+.body.responsive {
+    min-height: 100%;
+    min-width: 100;
+    padding-top: 55px
+}
+    #people-things {
+        position: relative;
+        left: 150px;
+    }
+
+
+    } 
+     @media (min-width: 414px) and (max-width: 736px) {
+ .starter-template {
+    padding: 20px 15px;
+    text-align: center
+}
+.body.responsive {
+    min-height: 100%;
+    min-width: 100;
+    padding-top: 55px
+}
+        #header1{
+            white-space: nowrap;
+        }
+        #join{
+            position: relative;
+            left: 130px;
+        }
+        #btn1{
+            position: relative;
+            left: 130px;
+        }
+         
+
+    #main {
+        width: 500%;
+        height: 100%;
+        
+                
+            }
+        #people-search a {
+            position: relative;
+            left: 120px;
+            white-space: nowrap
+        }
+        #people-things  {
+           position: relative;
+           left: 50px;
+           right: 30px;
+           font-size: 20px;
+        }
+
+        #jumbo2 {
+            position: relative;
+            width: 250%
+
+        }
+
+       
+        #actors {
+            position: relative;
+            
+            right: 35px;
+        }
+        #soulmates{
+            position: relative;
+            left: 10px;
+        }
+        #movies{
+            position: relative;
+            left: 5px;
+        }
+        #random{
+            position: relative;
+            right: 10px;
+        }
+        #me{
+            position: relative;
+            right: 10px;
+        }
+    }
+    @media (min-width: 360px) and (max-width: 640px){
+        
+#header1{
+    white-space: nowrap;
+}
+#people-search > a {
+    font-family:‘Metrophobic’, Arial, serif;
+    color:#093b0c;
+    position: relative;
+    left: 60px;
+}
+body > h3, a {
+        font-size: 25px;
+    }
+  
+
+#movies a{
+    position: relative;
+    right: 60px;
+}
+#h19 a{
+    position: relative;
+    left: 100px;
+}
+#h18 a{
+    position: relative;
+    left: 100px;
+}
+#h17 a{
+    position: relative;
+    left: 100px;
+}
+#movies a{
+    position: relative;
+    left: 30px;
+}
+#me a{
+    position: relative;
+    left: 90px;
+    white-space: nowrap;
+}
+#random{
+    position: relative;
+    left: 100px;
+    white-space: normal;
+}
+#actors{
+    position: relative;
+    left: 90px;
+}
+#jumbo2 {
+    width: 300%;
+}
+
+
+}
+    @media (min-width: 600px) and (max-width: 960px){
+        #people-things a{
+            position: relative; 
+            left: 170px;
+        }
+
+        }
+
+ 
+
+
+
+
+
+
+
+    }
