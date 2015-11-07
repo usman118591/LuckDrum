@@ -273,10 +273,16 @@ body > h3, a {
 
  
 
+    @media (min-width: 800px) and (max-width: 1280px){
+        #people-things a{
+            position: relative; 
+            right: 100px;
+        }
+
+        }
 
 
 
 
 
-
-    }
+    
