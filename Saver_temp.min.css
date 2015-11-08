@@ -3,8 +3,8 @@
     text-align: center;
 }
 body.responsive {
-    min-height: 100%;
-    min-width: 100;
+    min-height: auto;
+    min-width: auto;
     padding-top: 55px;
 }
 #header1 {
@@ -39,33 +39,32 @@ body.responsive {
  #main  {
     position: relative;
     bottom: 90px;
-    width: 100%;
+    width: auto;
+    min-width: auto;
 }
 
-    #people-search {
-        font-family: ‘Metrophobi‘Metrophobic’, Arial, serif;
-        position:relative;
-        left: 70px;
-        
-    }
-    #people-search a {
-        color: #093b0c;
-        
-    }
     
+    #people-search a {
+        font-family: ‘Metrophobi‘Metrophobic’, Arial, serif;
+        color: #093b0c;
+        position: relative;
+        left: 70px;
+        font-size: auto;       
+    }
     #people-things {
+         color: #a31592;
         font-family: ‘Metrophobi‘Metrophobic’, Arial, serif;
         color: inherit;
         position: relative;
-        right: 90px;
+        
+        font-size: auto;
         white-space: nowrap
     }
-    #people-things a {
+
+     #people-things a {
         color: #a31592;
-        font-family: ‘Metrophobic’, Arial, serif;
-        position: relative;
-        right: 90px;
-    }
+         }
+   
     
     #soulmates {
         white-space: nowrap;
@@ -123,12 +122,12 @@ body.responsive {
     @media (min-width: 1050px) and (max-width: 1680) {
      .starter-template {
     padding: 20px 15px;
-    text-align: center
+    text-align: center;
 }
 .body.responsive {
-    min-height: 100%;
-    min-width: 100;
-    padding-top: 55px
+    min-height: auto;
+    min-width: auto;
+    padding-top: 55px;
 }
     #people-things {
         position: relative;
@@ -137,14 +136,14 @@ body.responsive {
 
 
     } 
-     @media (min-width: 414px) and (max-width: 736px) {
+@media (min-width: 414px) and (max-width: 736px) {
  .starter-template {
     padding: 20px 15px;
     text-align: center
 }
 .body.responsive {
-    min-height: 100%;
-    min-width: 100;
+    min-height: auto;
+    min-width: auto;
     padding-top: 55px
 }
         #header1{
@@ -161,15 +160,16 @@ body.responsive {
          
 
     #main {
-        width: 500%;
-        height: 100%;
+        width: auto;
+        height: auto;
         
-                
+              
             }
         #people-search a {
             position: relative;
             left: 120px;
-            white-space: nowrap
+            white-space: nowrap;
+            font-size: auto;
         }
         #people-things  {
            position: relative;
@@ -217,9 +217,10 @@ body.responsive {
     color:#093b0c;
     position: relative;
     left: 60px;
+    font-size: auto;
 }
 body > h3, a {
-        font-size: 25px;
+        font-size: auto;
     }
   
 
@@ -263,11 +264,13 @@ body > h3, a {
 
 
 }
-    @media (min-width: 600px) and (max-width: 960px){
+    @media (min-width: 600px) and (max-width: 1050px){
         #people-things a{
             position: relative; 
-            left: 170px;
+          font-size: auto;
+          left: 10px;
         }
+
 
         }
 
