@@ -13,23 +13,73 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Kenia' rel='stylesheet' type='text/css'> 
 
 <link rel="stylesheet"type="text/css"href="Saver_temp.min.css" > 
+<link rel="stylesheet"type="text/css"href="Signing Page/signin.css" > 
+<script src="Signing Page/modal.js"></script>
 </head> 
 
 <body> 
 
+<!--Icon Preloader-->
+<div id="loading">
+  <img id="loading-image" src="photos/Preloader_3.gif" alt="Loading..." /></div>
+
+
+<!--Starter Of Container-->
 <div class="container"> 
 
 <div class="starter-template"> <h2 id="header1">LUCKDRUM CONNECTS YOU TO THE RIGHT PEOPLE & THINGS</h2> 
 
-<p id="btn1"><a href="Wait.html" class="btn btn-success">
+
+<a href="Signing Page/signin.html" class="btn btn-success"data-toggle="modal"data-target="#mymodal"type="button">
 
 <span class="glyphicon glyphicon-edit">
-</span> Sign In</a></p>
+</span> Sign In</a>
+ 
+<div class="modal"id="mymodal" >
+	<h3 class="modal-header">
+		
+	<h1 id="welcome">
+	We Are Glad You Are Here!
+		</h1>
+	</h3>
+<div class="modal-body">
+		<div class="container">
 
+      <form class="form-signin">
+        <h3 class="form-signin-heading">
+   Please Sign In</h3>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-sm btn-primary" type="submit" data-toggle="modal">Sign in</button>
+      </form>
+      <p>Or Sign In Through
+          FaceBook</p>
+<i id="face" class="fa fa-facebook fa-2x"></i>
+
+	</div></div>
+		
+
+<div class="modal-footer">
+	<button class="btn" data-dismiss="modal"aria-hidden="true">Close</button>
+
+
+</div></div>
+
+
+
+
+<!--Join Button-->
 <p id="join"><a href="Wait.html" class="btn btn-default ">
 
 <span class="glyphicon glyphicon-log-in">
@@ -45,15 +95,15 @@
 </div>
 
 
- <div class="jumbotron"id="main"> 
+ <div class="jumbotron clearfix"id="main"> 
  <div class="container-fluid" style="clear:both">
 <div class="row"> 
-  <div style="text-align: left; float: left;">
+  <div style="text-align: left; float:left">
     <h3 id="people-search"><a href="#" style="font-family:‘Metrophobic’, Arial, serif; color:#093b0c; text-align: center;">PEOPLE SEARCH</a></h3>
    </div>
 
 
-   <div style="text-align: right; float: right;">
+   <div style="text-align: right; float">
     <h3 id="people-things"><a href="#">PEOPLE-THINGS RECOMENDATION</a></h3>
    </div>
            
@@ -249,6 +299,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
 </script>
 <script src="js/myjs.min.js">
+
+</script>
+<script type="text/javascript">
+     $(window).load(function() {
+     $('#loading').hide();
+  });
 </script> 
 </body>
 </html>
